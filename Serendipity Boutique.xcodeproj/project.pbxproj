@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		288094E21EDB43F000055CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288094E11EDB43F000055CD0 /* AppDelegate.swift */; };
-		288094E41EDB43F000055CD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288094E31EDB43F000055CD0 /* ViewController.swift */; };
+		288094E41EDB43F000055CD0 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288094E31EDB43F000055CD0 /* SignInVC.swift */; };
 		288094E71EDB43F000055CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288094E51EDB43F000055CD0 /* Main.storyboard */; };
 		288094E91EDB43F000055CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288094E81EDB43F000055CD0 /* Assets.xcassets */; };
 		288094EC1EDB43F000055CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288094EA1EDB43F000055CD0 /* LaunchScreen.storyboard */; };
-		288094F41EDB462400055CD0 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 288094F31EDB462400055CD0 /* GoogleService-Info (1).plist */; };
+		288094F41EDB462400055CD0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 288094F31EDB462400055CD0 /* GoogleService-Info.plist */; };
+		288094F61EDB5BF300055CD0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288094F51EDB5BF300055CD0 /* extensions.swift */; };
+		288094F81EDB5C0B00055CD0 /* style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288094F71EDB5C0B00055CD0 /* style.swift */; };
+		288094FA1EDB7D3000055CD0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288094F91EDB7D3000055CD0 /* HomeVC.swift */; };
+		288094FD1EDB7D6300055CD0 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288094FB1EDB7D6300055CD0 /* SampleViewController.swift */; };
+		288094FE1EDB7D6300055CD0 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 288094FC1EDB7D6300055CD0 /* SampleViewController.xib */; };
 		3C0C49F8F248EB1E9C010F23 /* Pods_Serendipity_Boutique.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E84E4EB8E9046085DF2A3E /* Pods_Serendipity_Boutique.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +25,17 @@
 		20E84E4EB8E9046085DF2A3E /* Pods_Serendipity_Boutique.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Serendipity_Boutique.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		288094DE1EDB43F000055CD0 /* Serendipity Boutique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Serendipity Boutique.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		288094E11EDB43F000055CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		288094E31EDB43F000055CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		288094E31EDB43F000055CD0 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		288094E61EDB43F000055CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		288094E81EDB43F000055CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288094EB1EDB43F000055CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288094ED1EDB43F000055CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		288094F31EDB462400055CD0 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		288094F31EDB462400055CD0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		288094F51EDB5BF300055CD0 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		288094F71EDB5C0B00055CD0 /* style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = style.swift; sourceTree = "<group>"; };
+		288094F91EDB7D3000055CD0 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		288094FB1EDB7D6300055CD0 /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		288094FC1EDB7D6300055CD0 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
 		ADC173D39EDD45309457D41D /* Pods-Serendipity Boutique.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serendipity Boutique.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serendipity Boutique/Pods-Serendipity Boutique.debug.xcconfig"; sourceTree = "<group>"; };
 		BDD75B68F6B10A430A4453E8 /* Pods-Serendipity Boutique.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serendipity Boutique.release.xcconfig"; path = "Pods/Target Support Files/Pods-Serendipity Boutique/Pods-Serendipity Boutique.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,12 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				288094E11EDB43F000055CD0 /* AppDelegate.swift */,
-				288094E31EDB43F000055CD0 /* ViewController.swift */,
+				288094E31EDB43F000055CD0 /* SignInVC.swift */,
 				288094E51EDB43F000055CD0 /* Main.storyboard */,
+				288094F91EDB7D3000055CD0 /* HomeVC.swift */,
+				288094FB1EDB7D6300055CD0 /* SampleViewController.swift */,
+				288094FC1EDB7D6300055CD0 /* SampleViewController.xib */,
+				288094F51EDB5BF300055CD0 /* extensions.swift */,
+				288094F71EDB5C0B00055CD0 /* style.swift */,
 				288094E81EDB43F000055CD0 /* Assets.xcassets */,
 				288094EA1EDB43F000055CD0 /* LaunchScreen.storyboard */,
 				288094ED1EDB43F000055CD0 /* Info.plist */,
-				288094F31EDB462400055CD0 /* GoogleService-Info (1).plist */,
+				288094F31EDB462400055CD0 /* GoogleService-Info.plist */,
 			);
 			path = "Serendipity Boutique";
 			sourceTree = "<group>";
@@ -157,7 +172,8 @@
 				288094EC1EDB43F000055CD0 /* LaunchScreen.storyboard in Resources */,
 				288094E91EDB43F000055CD0 /* Assets.xcassets in Resources */,
 				288094E71EDB43F000055CD0 /* Main.storyboard in Resources */,
-				288094F41EDB462400055CD0 /* GoogleService-Info (1).plist in Resources */,
+				288094F41EDB462400055CD0 /* GoogleService-Info.plist in Resources */,
+				288094FE1EDB7D6300055CD0 /* SampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288094E41EDB43F000055CD0 /* ViewController.swift in Sources */,
+				288094E41EDB43F000055CD0 /* SignInVC.swift in Sources */,
+				288094FA1EDB7D3000055CD0 /* HomeVC.swift in Sources */,
+				288094FD1EDB7D6300055CD0 /* SampleViewController.swift in Sources */,
 				288094E21EDB43F000055CD0 /* AppDelegate.swift in Sources */,
+				288094F81EDB5C0B00055CD0 /* style.swift in Sources */,
+				288094F61EDB5BF300055CD0 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +405,7 @@
 				288094F21EDB43F000055CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
