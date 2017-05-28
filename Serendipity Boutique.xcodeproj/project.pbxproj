@@ -12,9 +12,12 @@
 		288094E71EDB43F000055CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288094E51EDB43F000055CD0 /* Main.storyboard */; };
 		288094E91EDB43F000055CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288094E81EDB43F000055CD0 /* Assets.xcassets */; };
 		288094EC1EDB43F000055CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288094EA1EDB43F000055CD0 /* LaunchScreen.storyboard */; };
+		288094F41EDB462400055CD0 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 288094F31EDB462400055CD0 /* GoogleService-Info (1).plist */; };
+		3C0C49F8F248EB1E9C010F23 /* Pods_Serendipity_Boutique.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E84E4EB8E9046085DF2A3E /* Pods_Serendipity_Boutique.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20E84E4EB8E9046085DF2A3E /* Pods_Serendipity_Boutique.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Serendipity_Boutique.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		288094DE1EDB43F000055CD0 /* Serendipity Boutique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Serendipity Boutique.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		288094E11EDB43F000055CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		288094E31EDB43F000055CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		288094E81EDB43F000055CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288094EB1EDB43F000055CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288094ED1EDB43F000055CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288094F31EDB462400055CD0 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		ADC173D39EDD45309457D41D /* Pods-Serendipity Boutique.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serendipity Boutique.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serendipity Boutique/Pods-Serendipity Boutique.debug.xcconfig"; sourceTree = "<group>"; };
+		BDD75B68F6B10A430A4453E8 /* Pods-Serendipity Boutique.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serendipity Boutique.release.xcconfig"; path = "Pods/Target Support Files/Pods-Serendipity Boutique/Pods-Serendipity Boutique.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0C49F8F248EB1E9C010F23 /* Pods_Serendipity_Boutique.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				288094E01EDB43F000055CD0 /* Serendipity Boutique */,
 				288094DF1EDB43F000055CD0 /* Products */,
+				9E772787D9FB6A7E936FEB76 /* Pods */,
+				C9D0675A88D2BB5A4CF5E3D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				288094E81EDB43F000055CD0 /* Assets.xcassets */,
 				288094EA1EDB43F000055CD0 /* LaunchScreen.storyboard */,
 				288094ED1EDB43F000055CD0 /* Info.plist */,
+				288094F31EDB462400055CD0 /* GoogleService-Info (1).plist */,
 			);
 			path = "Serendipity Boutique";
+			sourceTree = "<group>";
+		};
+		9E772787D9FB6A7E936FEB76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADC173D39EDD45309457D41D /* Pods-Serendipity Boutique.debug.xcconfig */,
+				BDD75B68F6B10A430A4453E8 /* Pods-Serendipity Boutique.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9D0675A88D2BB5A4CF5E3D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20E84E4EB8E9046085DF2A3E /* Pods_Serendipity_Boutique.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 288094F01EDB43F000055CD0 /* Build configuration list for PBXNativeTarget "Serendipity Boutique" */;
 			buildPhases = (
+				7EC4ED1E881AF36FA11E6073 /* [CP] Check Pods Manifest.lock */,
 				288094DA1EDB43F000055CD0 /* Sources */,
 				288094DB1EDB43F000055CD0 /* Frameworks */,
 				288094DC1EDB43F000055CD0 /* Resources */,
+				051104ACE0F7D5C6C2300443 /* [CP] Embed Pods Frameworks */,
+				95E0ED618B746FB11CFED1A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,10 +157,59 @@
 				288094EC1EDB43F000055CD0 /* LaunchScreen.storyboard in Resources */,
 				288094E91EDB43F000055CD0 /* Assets.xcassets in Resources */,
 				288094E71EDB43F000055CD0 /* Main.storyboard in Resources */,
+				288094F41EDB462400055CD0 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051104ACE0F7D5C6C2300443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Serendipity Boutique/Pods-Serendipity Boutique-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EC4ED1E881AF36FA11E6073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95E0ED618B746FB11CFED1A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Serendipity Boutique/Pods-Serendipity Boutique-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		288094DA1EDB43F000055CD0 /* Sources */ = {
@@ -261,6 +340,7 @@
 		};
 		288094F11EDB43F000055CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC173D39EDD45309457D41D /* Pods-Serendipity Boutique.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G62JKPEE92;
@@ -274,6 +354,7 @@
 		};
 		288094F21EDB43F000055CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD75B68F6B10A430A4453E8 /* Pods-Serendipity Boutique.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G62JKPEE92;
